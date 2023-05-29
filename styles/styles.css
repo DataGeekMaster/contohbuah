@@ -1,0 +1,96 @@
+#icon {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  background: transparent;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+  z-index: 9999;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+  }
+
+  .gambar-kecil {
+    width: 500px;
+    height: auto;
+  }
+
+  h1 {
+    color: #333;
+    text-align: center;
+  }
+
+  .item {
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+  }
+
+  .item h2 {
+    margin-top: 0;
+  }
+
+  .item p {
+    margin-bottom: 10px;
+  }
+
+#iconContainer {
+  display: inline-block;
+}
+
+.icon-image {
+  width: 40px; /* Ubah sesuai dengan lebar yang diinginkan */
+  height: 40px; /* Ubah sesuai dengan tinggi yang diinginkan */
+  vertical-align: middle;
+  background-color: white;
+  padding: 5px; /* Sesuaikan sesuai dengan jarak antara ikon dan kotak latar belakang yang diinginkan */
+  border-radius: 50%; /* Untuk membuat kotak berbentuk lingkaran */
+  box-sizing: border-box; /* Untuk memastikan bahwa padding tidak mempengaruhi ukuran total kotak */
+}
+
+.icon-text {
+  font-size: 14px; /* Ubah sesuai dengan ukuran teks yang diinginkan */
+  margin-left: 5px; /* Ubah sesuai dengan jarak yang diinginkan antara ikon dan teks */
+  vertical-align: middle;
+  background-color: white;
+  padding: 5px; /* Sesuaikan sesuai dengan jarak antara teks dan kotak latar belakang yang diinginkan */
+}
+
+#memberList {
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(0.1);
+  opacity: 0;
+  z-index: 9998;
+  transition: transform 1s ease-in-out, opacity 1s ease-in-out;
+}
+
+.box {
+  position: relative;
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+#close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+#memberList.show {
+  display: block;
+  transform: translate(-50%, -50%) scale(1);
+  opacity: 1;
+}
