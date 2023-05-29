@@ -2,71 +2,6 @@
 <html>
 <head>
   <link rel="stylesheet" type="text/css" href="styles/styles.css">
-    <style>
-    /* Gaya untuk perangkat dengan lebar layar <= 600px */
-    @media (max-width: 600px) {
-      #icon {
-        font-size: 20px;
-      }
-
-      .icon-image {
-        width: 40px;
-        height: 40px;
-      }
-
-      .icon-text {
-        font-size: 12px;
-      }
-    }
-
-    /* Gaya untuk perangkat dengan lebar layar <= 768px */
-    @media (max-width: 768px) {
-      #icon {
-        font-size: 24px;
-      }
-
-      .icon-image {
-        width: 50px;
-        height: 50px;
-      }
-
-      .icon-text {
-        font-size: 14px;
-      }
-    }
-
-    /* Gaya untuk perangkat dengan lebar layar <= 992px */
-    @media (max-width: 992px) {
-      #icon {
-        font-size: 28px;
-      }
-
-      .icon-image {
-        width: 60px;
-        height: 60px;
-      }
-
-      .icon-text {
-        font-size: 16px;
-      }
-    }
-
-    /* Gaya untuk perangkat dengan lebar layar <= 1200px */
-    @media (max-width: 1200px) {
-      #icon {
-        font-size: 32px;
-      }
-
-      .icon-image {
-        width: 70px;
-        height: 70px;
-      }
-
-      .icon-text {
-        font-size: 18px;
-      }
-    }
-  </style>
 </head>
 <body>
   <button onclick="toggleBox()" id="icon">
@@ -77,11 +12,11 @@
   <div id="memberList">
     <div class="box">
       <span id="close" onclick="toggleBox()">X</span>
-      <h2>Anggota Kelompok</h2>
+      <h2 class="judul-box">Anggota Kelompok</h2>
       <ul>
-        <li>Anggota 1</li>
-        <li>Anggota 2</li>
-        <li>Anggota 3</li>
+        <li class="box-text">Anggota 1</li>
+        <li class="box-text">Anggota 2</li>
+        <li class="box-text">Anggota 3</li>
       </ul>
     </div>
   </div>
