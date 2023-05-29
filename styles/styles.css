@@ -5,7 +5,7 @@ body {
 }
 
 .gambar-kecil {
-  width: 50%;
+  width: 30%;
   height: auto;
 }
 
@@ -94,7 +94,7 @@ h1 {
   position: absolute;
   top: 0.625rem; /* 10px = 0.625rem */
   right: 0.625rem; /* 10px = 0.625rem */
-  font-size: 1rem; /* 2px = 0.125rem */
+  font-size: 2rem; /* 2px = 0.125rem */
   cursor: pointer;
 }
 
