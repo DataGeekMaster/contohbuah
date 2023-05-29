@@ -1,110 +1,66 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 2%;
+}
+
+.gambar-kecil {
+  width: 50%;
+  height: auto;
+}
+
+h1 {
+  color: #333;
+  text-align: center;
+}
+
+.item {
+  margin-bottom: 2%;
+  border: 0.0625rem solid #ccc; /* 1px = 0.0625rem */
+  padding: 0.625rem; /* 10px = 0.625rem */
+  border-radius: 0.3125rem; /* 5px = 0.3125rem */
+}
+
+.item h2 {
+  margin-top: 0;
+}
+
+.item p {
+  margin-bottom: 0.625rem; /* 10px = 0.625rem */
+}
+
 #icon {
   position: fixed;
-  top: 20px;
-  right: 20px;
+  top: 2%;
+  right: 2%;
   background: transparent;
   border: none;
-  font-size: 24px;
+  font-size: 0.125rem; /* 2px = 0.125rem */
   cursor: pointer;
   z-index: 9999;
 }
-
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 20px;
-  }
-
-  .gambar-kecil {
-    width: 500px;
-    height: auto;
-  }
-
-  h1 {
-    color: #333;
-    text-align: center;
-  }
-
-  .item {
-    margin-bottom: 20px;
-    border: 1px solid #ccc;
-    padding: 10px;
-    border-radius: 5px;
-  }
-
-  .item h2 {
-    margin-top: 0;
-  }
-
-  .item p {
-    margin-bottom: 10px;
-  }
 
 #iconContainer {
   display: inline-block;
 }
 
 .icon-image {
-  width: 40px; /* Ukuran awal untuk layar yang lebih besar */
-  height: 40px; /* Ukuran awal untuk layar yang lebih besar */
+  width: 2.5rem; /* 8px = 0.5rem */
+  height: auto;
   vertical-align: middle;
   background-color: white;
-  padding: 5px; /* Jarak awal antara ikon dan kotak latar belakang */
-  border-radius: 50%; /* Untuk membuat kotak berbentuk lingkaran */
-  box-sizing: border-box; /* Untuk memastikan bahwa padding tidak mempengaruhi ukuran total kotak */
+  padding: 0.125rem; /* 2px = 0.125rem */
+  border-radius: 50%;
+  box-sizing: border-box;
 }
 
 .icon-text {
-  font-size: 14px; /* Ukuran awal untuk layar yang lebih besar */
-  margin-left: 5px; /* Jarak awal antara ikon dan teks */
+  font-size: 0.8rem; /* Ubah ukuran font sesuai kebutuhan */
+  margin-left: 0.125rem; /* 2px = 0.125rem */
   vertical-align: middle;
   background-color: white;
-  padding: 5px; /* Jarak awal antara teks dan kotak latar belakang */
-}
-
-/* Media query untuk ukuran layar lebih kecil dari atau sama dengan 992px (laptop) */
-@media (max-width: 992px) {
-  .icon-image {
-    width: 30px; /* Ukuran untuk layar laptop */
-    height: 30px; /* Ukuran untuk layar laptop */
-    padding: 3px; /* Jarak untuk layar laptop */
-  }
-  
-  .icon-text {
-    font-size: 12px; /* Ukuran untuk layar laptop */
-    margin-left: 3px; /* Jarak untuk layar laptop */
-    padding: 3px; /* Jarak untuk layar laptop */
-  }
-}
-
-/* Media query untuk ukuran layar lebih kecil dari atau sama dengan 768px (tablet) */
-@media (max-width: 768px) {
-  .icon-image {
-    width: 35px; /* Ukuran untuk layar tablet */
-    height: 35px; /* Ukuran untuk layar tablet */
-    padding: 4px; /* Jarak untuk layar tablet */
-  }
-  
-  .icon-text {
-    font-size: 12px; /* Ukuran untuk layar tablet */
-    margin-left: 4px; /* Jarak untuk layar tablet */
-    padding: 4px; /* Jarak untuk layar tablet */
-  }
-}
-
-/* Media query untuk ukuran layar lebih kecil dari atau sama dengan 600px (telepon) */
-@media (max-width: 600px) {
-  .icon-image {
-    width: 60px; /* Ukuran untuk layar telepon */
-    height: 60px; /* Ukuran untuk layar telepon */
-    padding: 5px; /* Jarak untuk layar telepon */
-  }
-  
-  .icon-text {
-    font-size: 20px; /* Ukuran untuk layar telepon */
-    margin-left: 5px; /* Jarak untuk layar telepon */
-    padding: 5px; /* Jarak untuk layar telepon */
-  }
+  padding: 0.125rem; /* 2px = 0.125rem */
+  font-weight: bold;
 }
 
 #memberList {
@@ -121,16 +77,24 @@ body {
 .box {
   position: relative;
   background: #fff;
-  padding: 20px;
-  border-radius: 10px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  padding: 5rem; /* 20px = 1.25rem */
+  border-radius: 0.625rem; /* 10px = 0.625rem */
+  box-shadow: 0 0 0.625rem rgba(0, 0, 0, 0.2); /* 10px = 0.625rem */
+}
+
+.judul-box{
+  font-size: 2.5rem; /* Ubah ukuran font sesuai kebutuhan */
+}
+
+.box-text{
+  font-size: 2rem; /* Ubah ukuran font sesuai kebutuhan */
 }
 
 #close {
   position: absolute;
-  top: 10px;
-  right: 10px;
-  font-size: 20px;
+  top: 0.625rem; /* 10px = 0.625rem */
+  right: 0.625rem; /* 10px = 0.625rem */
+  font-size: 1rem; /* 2px = 0.125rem */
   cursor: pointer;
 }
 
