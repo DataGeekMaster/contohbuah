@@ -45,21 +45,66 @@ body {
 }
 
 .icon-image {
-  width: 40px; /* Ubah sesuai dengan lebar yang diinginkan */
-  height: 40px; /* Ubah sesuai dengan tinggi yang diinginkan */
+  width: 40px; /* Ukuran awal untuk layar yang lebih besar */
+  height: 40px; /* Ukuran awal untuk layar yang lebih besar */
   vertical-align: middle;
   background-color: white;
-  padding: 5px; /* Sesuaikan sesuai dengan jarak antara ikon dan kotak latar belakang yang diinginkan */
+  padding: 5px; /* Jarak awal antara ikon dan kotak latar belakang */
   border-radius: 50%; /* Untuk membuat kotak berbentuk lingkaran */
   box-sizing: border-box; /* Untuk memastikan bahwa padding tidak mempengaruhi ukuran total kotak */
 }
 
 .icon-text {
-  font-size: 14px; /* Ubah sesuai dengan ukuran teks yang diinginkan */
-  margin-left: 5px; /* Ubah sesuai dengan jarak yang diinginkan antara ikon dan teks */
+  font-size: 14px; /* Ukuran awal untuk layar yang lebih besar */
+  margin-left: 5px; /* Jarak awal antara ikon dan teks */
   vertical-align: middle;
   background-color: white;
-  padding: 5px; /* Sesuaikan sesuai dengan jarak antara teks dan kotak latar belakang yang diinginkan */
+  padding: 5px; /* Jarak awal antara teks dan kotak latar belakang */
+}
+
+/* Media query untuk ukuran layar lebih kecil dari atau sama dengan 992px (laptop) */
+@media (max-width: 992px) {
+  .icon-image {
+    width: 30px; /* Ukuran untuk layar laptop */
+    height: 30px; /* Ukuran untuk layar laptop */
+    padding: 3px; /* Jarak untuk layar laptop */
+  }
+  
+  .icon-text {
+    font-size: 12px; /* Ukuran untuk layar laptop */
+    margin-left: 3px; /* Jarak untuk layar laptop */
+    padding: 3px; /* Jarak untuk layar laptop */
+  }
+}
+
+/* Media query untuk ukuran layar lebih kecil dari atau sama dengan 768px (tablet) */
+@media (max-width: 768px) {
+  .icon-image {
+    width: 35px; /* Ukuran untuk layar tablet */
+    height: 35px; /* Ukuran untuk layar tablet */
+    padding: 4px; /* Jarak untuk layar tablet */
+  }
+  
+  .icon-text {
+    font-size: 12px; /* Ukuran untuk layar tablet */
+    margin-left: 4px; /* Jarak untuk layar tablet */
+    padding: 4px; /* Jarak untuk layar tablet */
+  }
+}
+
+/* Media query untuk ukuran layar lebih kecil dari atau sama dengan 600px (telepon) */
+@media (max-width: 600px) {
+  .icon-image {
+    width: 40px; /* Ukuran untuk layar telepon */
+    height: 40px; /* Ukuran untuk layar telepon */
+    padding: 5px; /* Jarak untuk layar telepon */
+  }
+  
+  .icon-text {
+    font-size: 14px; /* Ukuran untuk layar telepon */
+    margin-left: 5px; /* Jarak untuk layar telepon */
+    padding: 5px; /* Jarak untuk layar telepon */
+  }
 }
 
 #memberList {
