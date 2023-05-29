@@ -95,13 +95,13 @@ body {
 /* Media query untuk ukuran layar lebih kecil dari atau sama dengan 600px (telepon) */
 @media (max-width: 600px) {
   .icon-image {
-    width: 40px; /* Ukuran untuk layar telepon */
-    height: 40px; /* Ukuran untuk layar telepon */
+    width: 60px; /* Ukuran untuk layar telepon */
+    height: 60px; /* Ukuran untuk layar telepon */
     padding: 5px; /* Jarak untuk layar telepon */
   }
   
   .icon-text {
-    font-size: 14px; /* Ukuran untuk layar telepon */
+    font-size: 20px; /* Ukuran untuk layar telepon */
     margin-left: 5px; /* Jarak untuk layar telepon */
     padding: 5px; /* Jarak untuk layar telepon */
   }
