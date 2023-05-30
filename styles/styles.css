@@ -106,3 +106,112 @@ h1 {
   opacity: 1;
 }
 }
+
+@media (max-width: 768px) {
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 16px;
+}
+
+.gambar-kecil {
+  width: 30%;
+  height: auto;
+}
+
+h1 {
+  color: #333;
+  text-align: center;
+  font-size: 48px;
+}
+
+.item {
+  margin-bottom: 16px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.item h2 {
+  margin-top: 0;
+}
+
+.item p {
+  margin-bottom: 10px;
+}
+
+#icon {
+  position: fixed;
+  top: 2%;
+  right: 2%;
+  background: transparent;
+  border: none;
+  font-size: 2px;
+  cursor: pointer;
+  z-index: 9999;
+}
+
+#iconContainer {
+  display: inline-block;
+}
+
+.icon-image {
+  width: 20px;
+  height: auto;
+  vertical-align: middle;
+  background-color: white;
+  padding: 2px;
+  border-radius: 50%;
+  box-sizing: border-box;
+}
+
+.icon-text {
+  font-size: 24px;
+  margin-left: 2px;
+  vertical-align: middle;
+  background-color: white;
+  padding: 2px;
+  font-weight: bold;
+}
+
+#memberList {
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(0.1);
+  opacity: 0;
+  z-index: 9998;
+  transition: transform 1s ease-in-out, opacity 1s ease-in-out;
+}
+
+.box {
+  position: relative;
+  background: #fff;
+  padding: 80px;
+  border-radius: 10px;
+  box-shadow: 10px rgba(0, 0, 0, 0.2);
+}
+
+.judul-box {
+  font-size: 40px;
+}
+
+.box-text {
+  font-size: 32px;
+}
+
+#close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 32px;
+  cursor: pointer;
+}
+
+#memberList.show {
+  display: block;
+  transform: translate(-50%, -50%) scale(1);
+  opacity: 1;
+}
+}
