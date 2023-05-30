@@ -1,7 +1,8 @@
+@media (max-width: 600px) {
 body {
   font-family: Arial, sans-serif;
   margin: 0;
-  padding: 2%;
+  padding: 16px;
 }
 
 .gambar-kecil {
@@ -12,13 +13,14 @@ body {
 h1 {
   color: #333;
   text-align: center;
+  font-size: 48px;
 }
 
 .item {
-  margin-bottom: 2%;
-  border: 0.0625rem solid #ccc; /* 1px = 0.0625rem */
-  padding: 0.625rem; /* 10px = 0.625rem */
-  border-radius: 0.3125rem; /* 5px = 0.3125rem */
+  margin-bottom: 16px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 5px;
 }
 
 .item h2 {
@@ -26,7 +28,7 @@ h1 {
 }
 
 .item p {
-  margin-bottom: 0.625rem; /* 10px = 0.625rem */
+  margin-bottom: 10px;
 }
 
 #icon {
@@ -35,7 +37,7 @@ h1 {
   right: 2%;
   background: transparent;
   border: none;
-  font-size: 0.125rem; /* 2px = 0.125rem */
+  font-size: 2px;
   cursor: pointer;
   z-index: 9999;
 }
@@ -45,21 +47,21 @@ h1 {
 }
 
 .icon-image {
-  width: 2.5rem; /* 8px = 0.5rem */
+  width: 20px;
   height: auto;
   vertical-align: middle;
   background-color: white;
-  padding: 0.125rem; /* 2px = 0.125rem */
+  padding: 2px;
   border-radius: 50%;
   box-sizing: border-box;
 }
 
 .icon-text {
-  font-size: 1.2rem; /* Ubah ukuran font sesuai kebutuhan */
-  margin-left: 0.125rem; /* 2px = 0.125rem */
+  font-size: 24px;
+  margin-left: 2px;
   vertical-align: middle;
   background-color: white;
-  padding: 0.125rem; /* 2px = 0.125rem */
+  padding: 2px;
   font-weight: bold;
 }
 
@@ -77,24 +79,24 @@ h1 {
 .box {
   position: relative;
   background: #fff;
-  padding: 5rem; /* 20px = 1.25rem */
-  border-radius: 0.625rem; /* 10px = 0.625rem */
-  box-shadow: 0 0 0.625rem rgba(0, 0, 0, 0.2); /* 10px = 0.625rem */
+  padding: 80px;
+  border-radius: 10px;
+  box-shadow: 10px rgba(0, 0, 0, 0.2);
 }
 
-.judul-box{
-  font-size: 2.5rem; /* Ubah ukuran font sesuai kebutuhan */
+.judul-box {
+  font-size: 40px;
 }
 
-.box-text{
-  font-size: 2rem; /* Ubah ukuran font sesuai kebutuhan */
+.box-text {
+  font-size: 32px;
 }
 
 #close {
   position: absolute;
-  top: 0.625rem; /* 10px = 0.625rem */
-  right: 0.625rem; /* 10px = 0.625rem */
-  font-size: 2rem; /* 2px = 0.125rem */
+  top: 10px;
+  right: 10px;
+  font-size: 32px;
   cursor: pointer;
 }
 
@@ -102,4 +104,5 @@ h1 {
   display: block;
   transform: translate(-50%, -50%) scale(1);
   opacity: 1;
+}
 }
