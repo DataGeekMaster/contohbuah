@@ -129,15 +129,6 @@
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-@media (max-width: 1000px) {
-  #success-message {
-    left: 10%;
-  }
-  #correct {
-    left: 30%;
-  }
-}
-
 #bulan {
   position: absolute;
   width: 300px;
@@ -246,5 +237,23 @@
   }
   to {
     opacity: 1;
+  }
+}
+
+@media (max-width: 1000px) {
+  #title {
+    top: 30px;
+  }
+  #login {
+    height: 60%;
+    top: 170px;
+  }
+  #success-message {
+    left: 5%;
+    font-size: 30px;
+    width: 280px;
+  }
+  #correct {
+    left: 0;
   }
 }
