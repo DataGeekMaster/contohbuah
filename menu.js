@@ -73,7 +73,11 @@ function validatePassword() {
     setTimeout(() => {
       correct.style.animation = 'moveCorrect 0.5s ease-out';
       correct.style.top = `20%`;
-      correct.style.left = `40%`;
+      if (window.innerWidth < 1000) {
+        correct.style.left = `15%`;
+      } else {
+        correct.style.left = `40%`;
+      }
       bulan.style.animation = `shrinkAnimationBulan 0.5s ease-in-out`;
       bulan.style.width = `200px`;
       centang.style.animation = `shrinkAnimationCentang 0.5s ease-in-out`;
